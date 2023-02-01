@@ -1,0 +1,41 @@
+body {
+    background-color: #1f2937;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    font-size: 24px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.intro {
+    display: flex;
+    font-size: 28px;
+
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px
+}
