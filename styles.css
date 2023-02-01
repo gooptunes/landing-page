@@ -3,6 +3,7 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+    padding: 32px;
 }
 
 .container {
@@ -21,6 +22,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 30px;
+    margin-right: auto;
 }
 
 .link {
@@ -31,11 +33,34 @@ body {
 
 .intro {
     display: flex;
+    flex:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 28px;
+    align-items:flex-start;
 
 }
 
-.image {
-    max-width: 300px;
-    max-height: 300px
+.brief-text {
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.heading1 {
+    display:flex;
+    flex-direction: column;
+    padding: 48px;
+    flex:auto;
+
+}
+
+img {
+    display:flex;
+    flex:auto;
+    max-width: 475px;
+    max-height: 475px;
+    
 }
