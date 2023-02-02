@@ -15,6 +15,7 @@ body {
     align-content: stretch;
     align-items: baseline;
     flex-direction: row;
+    gap: 30px;
 }
 
 .logo {
@@ -29,6 +30,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    
 }
 
 .intro {
@@ -64,3 +66,22 @@ img {
     max-height: 475px;
     
 }
+
+
+
+.inspirational {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 16px;
+}
+
+.boxes {
+    display: flex;
+    flex:auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
