@@ -4,7 +4,10 @@ body {
     color: #f9faf8;
     font-weight: bolder;
     padding: 32px;
+    display: flex;
 }
+
+/* Header */
 
 .container {
     display: flex;
@@ -33,42 +36,44 @@ body {
     
 }
 
-.intro {
-    display: flex;
-    flex:auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 28px;
-    align-items:flex-start;
+/* Section 1 */
 
+.intro, .heading1, .brief-text, .image, .hero   {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+} 
+
+.hero {
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
 
 .brief-text {
-    flex:auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    justify-content: flex-start;
+    font-size: 24px;
     color: #f9faf8;
 }
 
 .heading1 {
-    display:flex;
-    flex-direction: column;
-    padding: 48px;
-    flex:auto;
-
+    padding-left: 150px;
 }
 
-img {
-    display:flex;
-    flex:auto;
-    max-width: 475px;
-    max-height: 475px;
-    
+.image {
+    max-width: 33%;
+    max-height: 300px;
+    align-items: flex-end;
 }
 
+.
 
 
+/*Section 3*/
 .inspirational {
     display: flex;
     flex: 1 1 auto;
